@@ -53,8 +53,8 @@ If you use your own storage device and have purchased an unlimited data retentio
 
 **Release Date:** September 2019
 
--You can now configure App Setup Policies to include AvePoint Virtual Assistant (AVA) as a pinned App in Teams. After you edit the global policy or assign a policy, changes will take effect within 24 hours. For details, refer to Pin AVA to the App Bar in Teams.
--Added the AVA Report to enable monitoring of AVA&#39;s activities throughout the organization. For details, refer to Use AVA Report.
+- You can now configure App Setup Policies to include AvePoint Virtual Assistant (AVA) as a pinned App in Teams. After you edit the global policy or assign a policy, changes will take effect within 24 hours. For details, refer to Pin AVA to the App Bar in Teams.
+- Added the AVA Report to enable monitoring of AVA&#39;s activities throughout the organization. For details, refer to Use AVA Report.
 - Export jobs now support exporting Channel conversations and files for Microsoft Teams data. For details, refer to Export Teams Data.
 - Export jobs for Exchange Online now support downloading the exported data for each mailbox individually.
 - Added the **Remove Unprotected Data** page in **Data Management** to show the data found in the unprotected scope. Cloud Backup will remove the backup data for unprotected scope from our storage for the sake of your data privacy. For details, refer to Remove Unprotected Data.
@@ -63,7 +63,7 @@ If you use your own storage device and have purchased an unlimited data retentio
 
 The following updates have also been made to this user guide for this release:
 
--Added Teams App - AVA.
+- Added Teams App - AVA.
 - Added Export Teams Data.
 - Updated Download the Exported Data.
 - Updated Restore Project Online Data.
@@ -80,127 +80,6 @@ For additional technical information on the new functionality in this release, s
 ## How to Videos
 
 This section contains video tutorials that can be used to enhance your experience in the AvePoint Cloud Backup for Office 365 User Guide.
-
-###
-#
-[ANNOTATION:
-
-BY &#39;Esther Merel&#39;
-ON &#39;2019-03-22T12:33:00&#39;EM
-NOTE: &#39;https://www.youtube.com/watch?v=BzFq9PpjiNw&amp;list=PLyJFOtpJV3wNpVlhBynPoMncFc3sPjzOa&amp;index=8&amp;t=0s&#39;
-NOTE: &#39;&#39;]
-How to Setup and Run Your First Cloud Backup Job
-
-#
-[ANNOTATION:
-
-BY &#39;Doc-To-Help&#39;
-ON &#39;2019-09-13T10:03:00&#39;EM
-NOTE: &#39;D2HML|C1H Conditional|platform=htmlany;passthrough=true&#39;]
-\&lt;!-- Movie in YouTube Format --\&gt;\&lt;iframe src=&quot;https://www.youtube.com/embed/B2DaMF6vm08?autohide=0&amp;amp;autoplay=1&amp;amp;fs=0&amp;amp;rel=0&amp;amp;modestbranding=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;1&quot; width=&quot;560&quot; height=&quot;315&quot; title=&quot;&quot;\&gt;\&lt;/iframe\&gt;
-
-### How to Perform a Restore
-
-#
-[ANNOTATION:
-
-BY &#39;Doc-To-Help&#39;
-ON &#39;2019-09-13T10:16:00&#39;EM
-NOTE: &#39;D2HML|C1H Conditional|platform=htmlany;passthrough=true&#39;]
-\&lt;!-- Movie in YouTube Format --\&gt;\&lt;iframe src=&quot;https://www.youtube.com/embed/DjCzrEovtJ0?autohide=0&amp;amp;autoplay=1&amp;amp;fs=0&amp;amp;rel=0&amp;amp;modestbranding=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;1&quot; width=&quot;560&quot; height=&quot;315&quot; title=&quot;&quot;\&gt;\&lt;/iframe\&gt;
-
-###
-#
-[ANNOTATION:
-
-BY &#39;Esther Merel&#39;
-ON &#39;2019-03-22T12:33:00&#39;EM
-NOTE: &#39;https://www.youtube.com/watch?v=BzFq9PpjiNw&amp;list=PLyJFOtpJV3wNpVlhBynPoMncFc3sPjzOa&amp;index=8&amp;t=0s&#39;
-NOTE: &#39;&#39;]
-How to Scan and Register Groups and Teams in Office 365
-
-#
-[ANNOTATION:
-
-BY &#39;Doc-To-Help&#39;
-ON &#39;2019-09-13T09:55:00&#39;EM
-NOTE: &#39;D2HML|C1H Conditional|platform=htmlany;passthrough=true&#39;]
-\&lt;!-- Movie in YouTube Format --\&gt;\&lt;iframe src=&quot;https://www.youtube.com/embed/vTAT1ElOrhM?autohide=0&amp;amp;autoplay=1&amp;amp;fs=0&amp;amp;rel=0&amp;amp;modestbranding=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;1&quot; width=&quot;560&quot; height=&quot;315&quot; title=&quot;&quot;\&gt;\&lt;/iframe\&gt;
-
-###
-#
-[ANNOTATION:
-
-BY &#39;Esther Merel&#39;
-ON &#39;2019-03-22T12:33:00&#39;EM
-NOTE: &#39;https://www.youtube.com/watch?v=BzFq9PpjiNw&amp;list=PLyJFOtpJV3wNpVlhBynPoMncFc3sPjzOa&amp;index=8&amp;t=0s&#39;
-NOTE: &#39;&#39;]
-How to Restore Groups and Teams
-
-#
-[ANNOTATION:
-
-BY &#39;Doc-To-Help&#39;
-ON &#39;2019-03-22T12:31:00&#39;EM
-NOTE: &#39;D2HML|C1H Conditional|platform=htmlany;passthrough=true&#39;]
-\&lt;!-- Movie in YouTube Format --\&gt;\&lt;iframe src=&quot;https://www.youtube.com/embed/BzFq9PpjiNw?autohide=0&amp;amp;autoplay=1&amp;amp;fs=0&amp;amp;rel=0&amp;amp;modestbranding=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;1&quot; width=&quot;560&quot; height=&quot;315&quot; title=&quot;&quot;\&gt;\&lt;/iframe\&gt;
-
-For additional information on how to restore Groups and Teams with AvePoint Cloud Backup for Office 365, see Restore Teams Data and Restore Office 365 Groups Data.
-
-### How to Bring Your Own Storage Location
-
-#
-[ANNOTATION:
-
-BY &#39;Doc-To-Help&#39;
-ON &#39;2019-09-13T10:19:00&#39;EM
-NOTE: &#39;D2HML|C1H Conditional|platform=htmlany;passthrough=true&#39;]
-\&lt;!-- Movie in YouTube Format --\&gt;\&lt;iframe src=&quot;https://www.youtube.com/embed/FnfDOC5obd0?autohide=0&amp;amp;autoplay=1&amp;amp;fs=0&amp;amp;rel=0&amp;amp;modestbranding=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;1&quot; width=&quot;560&quot; height=&quot;315&quot; title=&quot;&quot;\&gt;\&lt;/iframe\&gt;
-
-###
-#
-[ANNOTATION:
-
-BY &#39;Esther Merel&#39;
-ON &#39;2019-03-22T12:35:00&#39;EM
-NOTE: &#39;https://www.youtube.com/watch?v=Sh4g5m\_U3WI&amp;list=PLyJFOtpJV3wNpVlhBynPoMncFc3sPjzOa&amp;index=12&#39;
-NOTE: &#39;&#39;]
-
-#
-[ANNOTATION:
-
-BY &#39;Esther Merel&#39;
-ON &#39;2019-03-22T12:35:00&#39;EM
-NOTE: &#39;https://youtu.be/Sh4g5m\_U3WI&#39;]
-How to Filter Objects
-
-#
-[ANNOTATION:
-
-BY &#39;Doc-To-Help&#39;
-ON &#39;2019-09-13T10:00:00&#39;EM
-NOTE: &#39;D2HML|C1H Conditional|platform=htmlany;passthrough=true&#39;]
-\&lt;!-- Movie in YouTube Format --\&gt;\&lt;iframe src=&quot;https://www.youtube.com/embed/Sh4g5m\_U3WI?autohide=0&amp;amp;autoplay=1&amp;amp;fs=0&amp;amp;rel=0&amp;amp;modestbranding=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;1&quot; width=&quot;560&quot; height=&quot;315&quot; title=&quot;&quot;\&gt;\&lt;/iframe\&gt;
-
-### How to Install AvePoint Virtual Assistant
-
-#
-[ANNOTATION:
-
-BY &#39;Doc-To-Help&#39;
-ON &#39;2019-09-13T09:56:00&#39;EM
-NOTE: &#39;D2HML|C1H Conditional|platform=htmlany;passthrough=true&#39;]
-\&lt;!-- Movie in YouTube Format --\&gt;\&lt;iframe src=&quot;https://www.youtube.com/embed/31zN3ySD7ME?autohide=0&amp;amp;autoplay=1&amp;amp;fs=0&amp;amp;rel=0&amp;amp;modestbranding=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;1&quot; width=&quot;560&quot; height=&quot;315&quot; title=&quot;&quot;\&gt;\&lt;/iframe\&gt;
-
-### How to Restore with AvePoint Virtual Assistant
-
-#
-[ANNOTATION:
-
-BY &#39;Doc-To-Help&#39;
-ON &#39;2019-09-13T09:56:00&#39;EM
-NOTE: &#39;D2HML|C1H Conditional|platform=htmlany;passthrough=true&#39;]
-\&lt;!-- Movie in YouTube Format --\&gt;\&lt;iframe src=&quot;https://www.youtube.com/embed/b183dgYA\_YE?autohide=0&amp;amp;autoplay=1&amp;amp;fs=0&amp;amp;rel=0&amp;amp;modestbranding=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;1&quot; width=&quot;560&quot; height=&quot;315&quot; title=&quot;&quot;\&gt;\&lt;/iframe\&gt;
 
 
 
@@ -221,19 +100,17 @@ NOTE: &#39;D2HML|C1H Conditional|platform=htmlany;passthrough=true&#39;]
 
 If I move from Classic DocAve Backup (Granular Backup &amp; Restore and Exchange Online Backup &amp; Restore) to AvePoint Cloud Backup for Office 365, can I still use the Classic DocAve Backup data to restore?
 
-You may have the following use cases when moving from Classic DocAve Backup to AvePoint Cloud Backup:
+### You may have the following use cases when moving from Classic DocAve Backup to AvePoint Cloud Backup:
 
--
-  - Use AvePoint Cloud Backup to protect the same Office 365 tenant that Classic DocAve Backup has protected.
-  - You are currently using Classic DocAve Backup to protect your Office 365 tenant A, but you want to move to Office 365 tenant B and use AvePoint Cloud Backup to protect the new Office 365 tenant.
+- Use AvePoint Cloud Backup to protect the same Office 365 tenant that Classic DocAve Backup has protected.
+- You are currently using Classic DocAve Backup to protect your Office 365 tenant A, but you want to move to Office 365 tenant B and use AvePoint Cloud Backup to protect the new Office 365 tenant.
 
 In either of the use cases above, you can go to Classic DocAve Backup to restore the previous backup data if you have purchased the AvePoint Cloud Backup license. Check the following to ensure you are well on track:
 
--
-  - The users who will be used to run the restore job, such as the service accounts, account pool users, or the user registered in app profile, still exist and have the required permissions and licenses.
-  - You will only use AvePoint Cloud Backup for data protection, which means you can no longer run backup jobs in Classic DocAve Backup.
+- The users who will be used to run the restore job, such as the service accounts, account pool users, or the user registered in app profile, still exist and have the required permissions and licenses.
+- You will only use AvePoint Cloud Backup for data protection, which means you can no longer run backup jobs in Classic DocAve Backup.
 
-I am currently using AvePoint default storage to store backup data. If I end my subscription, would I ever be able to recover the backup data from AvePoint?
+### I am currently using AvePoint default storage to store backup data. If I end my subscription, would I ever be able to recover the backup data from AvePoint?
 
 When a subscription ends, AvePoint will retain the backup data in AvePoint storage for 15 days, subject to the terms of your service agreement. The backup data in AvePoint storage can be exported to your own storage as a paid service. You must submit an export request if you wish to export your data from AvePoint storage.
 
@@ -247,7 +124,7 @@ Note that the backup data is stored in AvePoint format, and not as pure copies o
 
 If you would like additional details or assistance with this process, contact your AvePoint representative.
 
-Does AvePoint Cloud Backup for Office 365 Support Data Deduplication and Compression?
+#### Does AvePoint Cloud Backup for Office 365 Support Data Deduplication and Compression?
 
 AvePoint Cloud Backup for Office 365 applies standard .zip compression to data. Though our DAT files can support deduplication algorithms, we currently do not support deduplication on Blob storage as this necessitates a physical/virtual storage system which is not as cost effective as Azure Cool storage. Additionally, since our backup data is encrypted, and the encryption key is dynamic, the deduplication performance may not be optimal.
 
@@ -259,10 +136,9 @@ My organization plans to use the Customer Key feature in Office 365 so we will b
 
 The customer key feature in Office 365 encrypts the data at rest in Office 365, which indicates that Microsoft cannot access this encrypted data. However, AvePoint Cloud Backup for Office 365 uses user credentials or app profile to access customer data with API, same as the end user accessing scenario where the data will be decrypted to real content. Therefore, the backup and restore service will not be affected. For more details, you can refer to [this FAQ](https://docs.microsoft.com/en-us/office365/securitycompliance/service-encryption-with-customer-key-faq#what-is-the-difference-between-customer-key-and-bring-your-own-key-byok-with-azure-information-protection-for-exchange-online) from Microsoft website.
 
-How do I restore term store only data?
+### How do I restore term store only data?
 
 You can choose the following solutions:
 
--
-  - If you want to restore global term store data, select any site collection in your tenant and use **Skip** as the conflict resolution for all to perform a restore job.
-  - If you want to restore local term store data for a site collection, select that site collection to restore and use **Skip** as the conflict resolution for all to perform a restore job.
+- If you want to restore global term store data, select any site collection in your tenant and use **Skip** as the conflict resolution for all to perform a restore job.
+- If you want to restore local term store data for a site collection, select that site collection to restore and use **Skip** as the conflict resolution for all to perform a restore job.
