@@ -117,6 +117,7 @@ When a subscription ends, AvePoint will retain the backup data in AvePoint stora
 If you have the BYOS (bring your own storage) license, the backup data will remain in your own storage until you delete it, and you will not need to pay an export fee.
 
 Note that the backup data is stored in AvePoint format, and not as pure copies of Office 365 data. AvePoint recommends the following solutions to restore your backup data to readable content:
+
 | Solution | Object Type |
 | --- | --- |
 | DocAve 6 SP11 (with a free restore license) | SharePoint Online site collectionsOneDrive for BusinessOffice 365 Group team site |
