@@ -13,17 +13,17 @@ For more information on the supported and unsupported data types of Office 365 B
 
 **\*Note the following** :
 
--AvePoint Cloud Backup service for OneDrive for Business will protect the **Documents** library and will protect the **Site Assets** library as well if the site feature **Site NoteBook** is activated.
+- AvePoint Cloud Backup service for OneDrive for Business will protect the **Documents** library and will protect the **Site Assets** library as well if the site feature **Site NoteBook** is activated.
 
-The service only protects content and permissions for OneDrive for Business, since OneDrive for Business is the cloud service used to securely store, share, and access your files.
+- The service only protects content and permissions for OneDrive for Business, since OneDrive for Business is the cloud service used to securely store, share, and access your files.
 
--**Preservation Hold** library is not protected by AvePoint Cloud Backup for Office 365.
--AvePoint Cloud Backup for SharePoint Online also supports protecting **Communication Sites**. When restoring a deleted Communication Site to its original location, AvePoint Cloud Backup supports restoring the custom design of the Communication Site in the backup. If the Communication Site is registered through App Profile, the Communication Site can only be restored with the default design. Note that the comments in Communication Sites are not currently supported.
--For locked site collections, the backup job will fail since locked site collections are inaccessible; for read-only site collections, the full backup job that runs once every year will back up them, but since no changes can be made to read-only site collections, the incremental backup jobs will skip them.
--Project Online data cannot be protected in app context (using app profile authentication). AvePoint Cloud Backup cannot fully support the data added through Office 365 subscription Project Online desktop client. For example, custom fields.
--The service for Public Folders only supports restoring content and permissions of Public Folder data to the original location without properties and settings (metadata).
--AvePoint Cloud Backup for Office 365 now can check the status of groups and teams in Office 365 and provides the option to help you restore the soft-deleted groups and teams (within the 30-day retention period) from Office 365 recycle bin.
--AvePoint Cloud Backup uses the Graph API beta version for the backup and restore of Teams&#39; tabs, since the Graph API 1.0 currently has limitations on supporting tabs.
+- **Preservation Hold** library is not protected by AvePoint Cloud Backup for Office 365.
+- AvePoint Cloud Backup for SharePoint Online also supports protecting **Communication Sites**. When restoring a deleted Communication Site to its original location, AvePoint Cloud Backup supports restoring the custom design of the Communication Site in the backup. If the Communication Site is registered through App Profile, the Communication Site can only be restored with the default design. Note that the comments in Communication Sites are not currently supported.
+- For locked site collections, the backup job will fail since locked site collections are inaccessible; for read-only site collections, the full backup job that runs once every year will back up them, but since no changes can be made to read-only site collections, the incremental backup jobs will skip them.
+- Project Online data cannot be protected in app context (using app profile authentication). AvePoint Cloud Backup cannot fully support the data added through Office 365 subscription Project Online desktop client. For example, custom fields.
+- The service for Public Folders only supports restoring content and permissions of Public Folder data to the original location without properties and settings (metadata).
+- AvePoint Cloud Backup for Office 365 now can check the status of groups and teams in Office 365 and provides the option to help you restore the soft-deleted groups and teams (within the 30-day retention period) from Office 365 recycle bin.
+- AvePoint Cloud Backup uses the Graph API beta version for the backup and restore of Teams&#39; tabs, since the Graph API 1.0 currently has limitations on supporting tabs.
 
 **Backup Schedule**
 
@@ -117,22 +117,22 @@ When a subscription ends, AvePoint will retain the backup data in AvePoint stora
 If you have the BYOS (bring your own storage) license, the backup data will remain in your own storage until you delete it, and you will not need to pay an export fee.
 
 Note that the backup data is stored in AvePoint format, and not as pure copies of Office 365 data. AvePoint recommends the following solutions to restore your backup data to readable content:
-
-| DocAve 6 SP11 (with a free restore license) | SharePoint Online site collectionsOneDrive for BusinessOffice 365 Group team site |
+| Solution | Object Type |
 | --- | --- |
+| DocAve 6 SP11 (with a free restore license) | SharePoint Online site collectionsOneDrive for BusinessOffice 365 Group team site |
 | Stand-alone Data Export Tool | Exchange Online mailboxesPublic FoldersOffice 365 Group mailboxes |
 
 If you would like additional details or assistance with this process, contact your AvePoint representative.
 
-#### Does AvePoint Cloud Backup for Office 365 Support Data Deduplication and Compression?
+### Does AvePoint Cloud Backup for Office 365 Support Data Deduplication and Compression?
 
 AvePoint Cloud Backup for Office 365 applies standard .zip compression to data. Though our DAT files can support deduplication algorithms, we currently do not support deduplication on Blob storage as this necessitates a physical/virtual storage system which is not as cost effective as Azure Cool storage. Additionally, since our backup data is encrypted, and the encryption key is dynamic, the deduplication performance may not be optimal.
 
-I have a document that had an external user shared to it. Does AvePoint Cloud Backup support restoring the external user and its permission that were part of that document?
+### I have a document that had an external user shared to it. Does AvePoint Cloud Backup support restoring the external user and its permission that were part of that document?
 
 For the external users that have been added to your Azure AD, its permissions will be kept when the document shared with it has been restored. However, AvePoint Cloud Backup does not support protecting the external sharing data of that document. The external sharing in Office 365 consists of two elements: the shared link and the external user and its permission. Currently, the shared links are not included in the backup scope, which means, after being restored, the external users can no longer use the shared link to access that document.
 
-My organization plans to use the Customer Key feature in Office 365 so we will be in control of our own encryption keys for our data in Office 365. Will AvePoint Cloud Backup backs up and restores this data if it is enabled?
+### My organization plans to use the Customer Key feature in Office 365 so we will be in control of our own encryption keys for our data in Office 365. Will AvePoint Cloud Backup backs up and restores this data if it is enabled?
 
 The customer key feature in Office 365 encrypts the data at rest in Office 365, which indicates that Microsoft cannot access this encrypted data. However, AvePoint Cloud Backup for Office 365 uses user credentials or app profile to access customer data with API, same as the end user accessing scenario where the data will be decrypted to real content. Therefore, the backup and restore service will not be affected. For more details, you can refer to [this FAQ](https://docs.microsoft.com/en-us/office365/securitycompliance/service-encryption-with-customer-key-faq#what-is-the-difference-between-customer-key-and-bring-your-own-key-byok-with-azure-information-protection-for-exchange-online) from Microsoft website.
 
