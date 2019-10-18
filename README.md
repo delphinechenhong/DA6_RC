@@ -13,19 +13,17 @@ For more information on the supported and unsupported data types of Office 365 B
 
 **\*Note the following** :
 
--
-  - AvePoint Cloud Backup service for OneDrive for Business will protect the **Documents** library and will protect the **Site Assets** library as well if the site feature **Site NoteBook** is activated.
+-AvePoint Cloud Backup service for OneDrive for Business will protect the **Documents** library and will protect the **Site Assets** library as well if the site feature **Site NoteBook** is activated.
 
 The service only protects content and permissions for OneDrive for Business, since OneDrive for Business is the cloud service used to securely store, share, and access your files.
 
--
-  - **Preservation Hold** library is not protected by AvePoint Cloud Backup for Office 365.
-  - AvePoint Cloud Backup for SharePoint Online also supports protecting **Communication Sites**. When restoring a deleted Communication Site to its original location, AvePoint Cloud Backup supports restoring the custom design of the Communication Site in the backup. If the Communication Site is registered through App Profile, the Communication Site can only be restored with the default design. Note that the comments in Communication Sites are not currently supported.
-  - For locked site collections, the backup job will fail since locked site collections are inaccessible; for read-only site collections, the full backup job that runs once every year will back up them, but since no changes can be made to read-only site collections, the incremental backup jobs will skip them.
-  - Project Online data cannot be protected in app context (using app profile authentication). AvePoint Cloud Backup cannot fully support the data added through Office 365 subscription Project Online desktop client. For example, custom fields.
-  - The service for Public Folders only supports restoring content and permissions of Public Folder data to the original location without properties and settings (metadata).
-  - AvePoint Cloud Backup for Office 365 now can check the status of groups and teams in Office 365 and provides the option to help you restore the soft-deleted groups and teams (within the 30-day retention period) from Office 365 recycle bin.
-  - AvePoint Cloud Backup uses the Graph API beta version for the backup and restore of Teams&#39; tabs, since the Graph API 1.0 currently has limitations on supporting tabs.
+-**Preservation Hold** library is not protected by AvePoint Cloud Backup for Office 365.
+-AvePoint Cloud Backup for SharePoint Online also supports protecting **Communication Sites**. When restoring a deleted Communication Site to its original location, AvePoint Cloud Backup supports restoring the custom design of the Communication Site in the backup. If the Communication Site is registered through App Profile, the Communication Site can only be restored with the default design. Note that the comments in Communication Sites are not currently supported.
+-For locked site collections, the backup job will fail since locked site collections are inaccessible; for read-only site collections, the full backup job that runs once every year will back up them, but since no changes can be made to read-only site collections, the incremental backup jobs will skip them.
+-Project Online data cannot be protected in app context (using app profile authentication). AvePoint Cloud Backup cannot fully support the data added through Office 365 subscription Project Online desktop client. For example, custom fields.
+-The service for Public Folders only supports restoring content and permissions of Public Folder data to the original location without properties and settings (metadata).
+-AvePoint Cloud Backup for Office 365 now can check the status of groups and teams in Office 365 and provides the option to help you restore the soft-deleted groups and teams (within the 30-day retention period) from Office 365 recycle bin.
+-AvePoint Cloud Backup uses the Graph API beta version for the backup and restore of Teams&#39; tabs, since the Graph API 1.0 currently has limitations on supporting tabs.
 
 **Backup Schedule**
 
@@ -55,29 +53,27 @@ If you use your own storage device and have purchased an unlimited data retentio
 
 **Release Date:** September 2019
 
--
-  - You can now configure App Setup Policies to include AvePoint Virtual Assistant (AVA) as a pinned App in Teams. After you edit the global policy or assign a policy, changes will take effect within 24 hours. For details, refer to Pin AVA to the App Bar in Teams.
-  - Added the AVA Report to enable monitoring of AVA&#39;s activities throughout the organization. For details, refer to Use AVA Report.
-  - Export jobs now support exporting Channel conversations and files for Microsoft Teams data. For details, refer to Export Teams Data.
-  - Export jobs for Exchange Online now support downloading the exported data for each mailbox individually.
-  - Added the **Remove Unprotected Data** page in **Data Management** to show the data found in the unprotected scope. Cloud Backup will remove the backup data for unprotected scope from our storage for the sake of your data privacy. For details, refer to Remove Unprotected Data.
-  - Domain mapping for Project Online restore is now supported.
-  - Teams Announcement type posts can now be backed up and restored.
+-You can now configure App Setup Policies to include AvePoint Virtual Assistant (AVA) as a pinned App in Teams. After you edit the global policy or assign a policy, changes will take effect within 24 hours. For details, refer to Pin AVA to the App Bar in Teams.
+-Added the AVA Report to enable monitoring of AVA&#39;s activities throughout the organization. For details, refer to Use AVA Report.
+- Export jobs now support exporting Channel conversations and files for Microsoft Teams data. For details, refer to Export Teams Data.
+- Export jobs for Exchange Online now support downloading the exported data for each mailbox individually.
+- Added the **Remove Unprotected Data** page in **Data Management** to show the data found in the unprotected scope. Cloud Backup will remove the backup data for unprotected scope from our storage for the sake of your data privacy. For details, refer to Remove Unprotected Data.
+- Domain mapping for Project Online restore is now supported.
+- Teams Announcement type posts can now be backed up and restored.
 
 The following updates have also been made to this user guide for this release:
 
--
-  - Added Teams App - AVA.
-  - Added Export Teams Data.
-  - Updated Download the Exported Data.
-  - Updated Restore Project Online Data.
-  - Added Data Management.
-  - Added Remove Unprotected Data.
-  - Updated SharePoint Sites Data Types.
-  - Added Public Folders Data Types.
-  - Updated Teams Data Types.
-  - Updated Document-Related Data Types.
-  - Updated Data Types for Data Exporting.
+-Added Teams App - AVA.
+- Added Export Teams Data.
+- Updated Download the Exported Data.
+- Updated Restore Project Online Data.
+- Added Data Management.
+- Added Remove Unprotected Data.
+- Updated SharePoint Sites Data Types.
+- Added Public Folders Data Types.
+- Updated Teams Data Types.
+- Updated Document-Related Data Types.
+- Updated Data Types for Data Exporting.
 
 For additional technical information on the new functionality in this release, see [Release Notes](https://avepointcdn.azureedge.net/assets/product_updates/avepoint-cloud-backup-for-office365/index.htm).
 
